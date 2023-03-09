@@ -1,7 +1,7 @@
 import React from "react";
 // import GVPLake from "../../Assets/GVP-Lake.JPG"
 
-const Homepage = () => {
+const firstHomepage = () => {
     return (
         // <section className="introductionTop">
         //     {/* <img src={ GVPLake } className="GVPLakeImage" alt="Photo of blurry lake with the GoodView Productions logo in the center"></img> */}
@@ -24,4 +24,4 @@ const Homepage = () => {
     )
 }
 
-export default Homepage;
+export default firstHomepage;

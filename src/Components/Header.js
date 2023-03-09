@@ -1,7 +1,7 @@
 import React from "react";
 // import Homepage from "./Pages/Homepage";
 
-function Header ({ currentPage, handlePageChange}) {
+function topHeader ({ currentPage, handlePageChange}) {
     return (
         <nav className="headerSection">
             <ul className="headerNavList">
@@ -9,7 +9,7 @@ function Header ({ currentPage, handlePageChange}) {
                     {/* ========= HOMEPAGE =========  */}
                 <li className="navLinkItem">
                     <a
-                    className={currentPage === 'Homepage'} 
+                    className='homepageNavLink' 
                     href="#Homepage" 
                     onClick={() => handlePageChange('Homepage')}
                     >
@@ -20,7 +20,7 @@ function Header ({ currentPage, handlePageChange}) {
                     {/* ======== GALLERY ========  */}
                  <li className="navLinkItem">
                     <a
-                    className={currentPage === 'Gallery'} 
+                    className='GalleryNavLink' 
                     href="#Gallery" 
                     onClick={() => handlePageChange('Gallery')}
                     >
@@ -31,7 +31,7 @@ function Header ({ currentPage, handlePageChange}) {
                     {/* ======== CONTACT ========  */}
                  <li className="navLinkItem">
                     <a
-                    className={currentPage === 'Contact'} 
+                    className='contactNavLink'
                     href="#Contact" 
                     onClick={() => handlePageChange('Contact')}
                     >
@@ -46,4 +46,4 @@ function Header ({ currentPage, handlePageChange}) {
     )
 }
 
-export default Header;
+export default topHeader;

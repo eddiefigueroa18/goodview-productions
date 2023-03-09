@@ -4,6 +4,10 @@
   border: 0;
   outline: 0;
 }
+:root {
+  --vscode: ##262A33;
+  --blueish: #10336c;
+}
 
 body {
   /* margin: 0;
@@ -16,6 +20,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--vscode);
+  /* background-image: url(./Assets/GVP-Lake.JPG); */
 }
 
 code {
@@ -24,7 +29,3 @@ code {
 }
 
 
-:root {
-  --vscode: ##262A33;
-  --blueish: #10336c;
-}
