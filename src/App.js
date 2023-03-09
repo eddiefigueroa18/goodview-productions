@@ -1,13 +1,13 @@
 import React from "react";
 import './App.css';
 
-import portfolioContainerPage from "../src/Components/portfolioContainerPage";
+import GoodView from "../src/Components/PortfolioContainerPage";
 
 
 function App() {
   return (
     <div className='Application'>
-      <portfolioContainerPage />
+      <GoodView />
 
     </div>
   );

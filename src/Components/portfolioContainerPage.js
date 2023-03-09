@@ -1,4 +1,4 @@
-import react, { useState } from "react";
+import React, { useState } from "react";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -7,8 +7,8 @@ import Homepage from "./Pages/Homepage";
 import Gallery from "./Pages/Gallery";
 import Contact from "./Pages/Contact";
 
-export default function portfolioContainerPage() {
-    const [currentPage, setCurrentPage] = useState (Homepage);
+export default function PortfolioContainerPage() {
+    const [currentPage, setCurrentPage] = useState('Homepage');
 
 
     const renderPage = () => {
