@@ -1,7 +1,7 @@
 import React from "react";
-import './App.css';
+import './index.css';
 
-import GoodView from "../src/Components/PortfolioContainerPage";
+import GoodView from "./Components/PortfolioContainerPage";
 
 
 function App() {
